@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gourav : Front-End & UI Developer</title>
+
+    <script src="https://kit.fontawesome.com/7526f748ec.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="background">
+        <div class="background__container">
+            <div class="box"></div>
+        </div>
+    </div>
+    <div class="app">
+        <div class="app__inner">
+            <div class="header">
+                <div class="header__left">
+                    <div class="header__logo">
+                        <img src="images/logo.png" alt="Logo" width="600" height="172">
+                    </div>
+                    <div class="header__intro">
+                        <p class="header__name">Gourav Prusty</p>
+                        <p class="header__about">UI Developer</p>
+                        <ul class="header__social">
+                            <li><a href="https://github.com/gouravprusty" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/gourav-prusty-72a110249" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="header__right">
+                    <li>
+                        <span>EMAIL</span>
+                        <p><a href="mailto:gouravprusty1432@gmail.com"><i class="fa-regular fa-envelope"></i> &nbsp;&nbsp;gouravprusty1432@gmail.com</a></p>
+                    </li>
+                    <li>
+                        <span>CV</span>
+                        <p><a href="images/resume.pdf" target="_blank"><i class="fa-solid fa-download"></i> &nbsp;&nbsp;Download</a></p>
+                    </li>
+                    <li>
+                        <span>LOCATION</span>
+                        <p><a href="https://maps.app.goo.gl/XM7EhSDxWfA257rR9" target="_blank"><i class="fa-solid fa-location-dot"></i> &nbsp;&nbsp;Bengaluru, India</a></p>
+                    </li>
+                    <li>
+                        <span>STATUS</span>
+                        <p><i class="fa-solid fa-magnifying-glass"></i> &nbsp;&nbsp;Seeking New Opportunities</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="main">
+                <div class="main__left">
+                    <div class="main__menu">
+                        <ul class="menu__list">
+                            <li class="active" data-target="home"><i class="fa-solid fa-house-laptop"></i>Home</li>
+                            <li data-target="about"><i class="fa-regular fa-address-card"></i>About</li>
+                            <li data-target="projects"><i class="fa-solid fa-laptop-code"></i>Projects</li>
+                            <li data-target="skills"><i class="fa-brands fa-html5"></i>Skills</li>
+                            <li data-target="contact"><i class="fa-regular fa-address-book"></i>Contact</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main__right">
+
+                    <div id="home" class="section active">
+                        <h2 class="section__heading">Introduction</h2>
+                        <div class="intro__box">
+                            <div class="intro__left">
+                                <p class="common__text">Hi, I’m <span class="highlight">Gourav</span>,<br>A passionate UI Developer <br>crafting engaging and user-friendly digital experiences.</p>
+                                <p class="common__text">I specialize in building modern, responsive user interfaces with clean code and intuitive designs. With a focus on delivering seamless experiences, I bring ideas to life using tools like JavaScript, React, and CSS.</p>
+                                <button type="button" id="contact_button" class="contact_button">Contact Me</button>
+                            </div>
+                            <div class="intro__right">
+                                <div class="intro_avatar">
+                                    <img src="images/avatar.png" alt="Avatar" width="300" height="622">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section" id="about">
+                        <h2 class="section__heading">About Me</h2>
+                        <p class="common__text">Hi, I’m Gourav, a dedicated and detail-oriented UI Developer with a passion for crafting beautiful, intuitive, and responsive user interfaces. My journey in web development started with a fascination for design and evolved into a career dedicated to bridging creativity with functionality.</p>
+                        <p class="common__text">With expertise in HTML, CSS, JavaScript, and React, I specialize in turning complex ideas into seamless digital experiences. Whether it’s creating pixel-perfect designs, optimizing performance, or implementing interactive features, I strive to deliver user-centric solutions that make an impact.</p>
+                        <h3 class="sub_heading">What I Bring to the Table</h3>
+                        <ul class="about__list">
+                            <li><span>Creative Problem-Solving</span>: I enjoy solving design challenges and translating them into intuitive user interfaces.</li>
+                            <li><span>Technical Proficiency</span>: Skilled in front-end frameworks, responsive design, and modern development practices.</li>
+                            <li><span>Collaboration</span>: A strong communicator and team player who thrives in dynamic environments.</li>
+                        </ul>
+                        <h3 class="sub_heading">When I’m Not Coding</h3>
+                        <p class="common__text">When I’m not building user interfaces, you can find me exploring new design trends, learning emerging technologies, or diving into gaming, riding bicycle and listening to music.</p>
+                    </div>
+
+                    <div class="section" id="projects">
+                        <h2 class="section__heading">Projects</h2>
+                        <p class="common__text">Explore some of the projects I’ve worked on, showcasing my skills in UI development, responsive design, and interactive features.</p>
+                        <div class="projects_box">
+
+                            <div class="project">
+                                <p class="project_name">Restaurant Website</p>
+                                <a href="https://gouravprusty.github.io/restaurant1/" target="_blank" class="project_image">
+                                    <img src="images/restaurant.png" alt="Restaurant website" width="880" height="527">
+                                </a>
+                                <p class="common__text">Designed and developed a responsive restaurant website to showcase the menu, services, and ambiance of the establishment. The website features a visually appealing layout, interactive elements, and easy navigation to enhance the user experience.</p>
+                            </div>
+
+                            <div class="project">
+                                <p class="project_name">To-Do App</p>
+                                <a href="https://gouravprusty.github.io/todo_app/" target="_blank" class="project_image">
+                                    <img src="images/todo.png" alt="Todo App" width="880" height="527">
+                                </a>
+                                <p class="common__text">Developed a simple and efficient To-Do application to help users manage tasks and boost productivity. The app allows users to add, and delete tasks with ease, providing a clean and intuitive interface.</p>
+                            </div>
+
+                            <div class="project">
+                                <p class="project_name">Dictionary</p>
+                                <a href="https://gouravprusty.github.io/dictionary/" target="_blank" class="project_image">
+                                    <img src="images/dictionary.png" alt="Dictionary" width="880" height="527">
+                                </a>
+                                <p class="common__text">Built a user-friendly dictionary application that allows users to search for word definitions, use in sentences and pronunciations. The app provides clear and concise results with a clean, responsive interface.</p>
+                            </div>
+
+                            <div class="project">
+                                <p class="project_name">Sudoku</p>
+                                <a href="https://gouravprusty.github.io/sudoku/" target="_blank" class="project_image">
+                                    <img src="images/sudoku.png" alt="Sudoku" width="880" height="527">
+                                </a>
+                                <p class="common__text">An interactive Sudoku game with customizable difficulty levels, intuitive controls, and real-time validation to enhance the user experience. The game challenges users to solve puzzles while providing hints and ensuring logical gameplay.</p>
+                            </div>
+
+                            <div class="project">
+                                <p class="project_name">Weather App</p>
+                                <a href="https://gouravprusty.github.io/weather_app/" target="_blank" class="project_image">
+                                    <img src="images/weather.png" alt="Weather App" width="880" height="527">
+                                </a>
+                                <p class="common__text">A basic weather application that provides current weather conditions for any location. The app features a clean, user-friendly design and displays key information like temperature, weather type, and location details.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="section" id="skills">
+                        <h2 class="section__heading">Skills & Tools</h2>
+                        <p class="common__text">As a UI Developer, I work with a variety of tools and technologies to build engaging, responsive, and user-friendly web applications. <br>Below are the key skills and tools I use to bring my projects to life:</p>
+                        <h3 class="sub_heading">Technical Skills</h3>
+                        <ul class="about__list">
+                            <li><span>Frontend Development</span>: HTML, CSS, JavaScript, Bootstrap, React</li>
+                            <li><span>Responsive Design</span>: Expertise in building mobile-first and cross-browser-compatible designs</li>
+                            <li><span>Version Control</span>: Git, GitHub</li>
+                            <li><span>UI Frameworks</span>: Bootstrap, Tailwind CSS</li>
+                            <li><span>Animation & Effects</span>: CSS Transitions</li>
+                            <li><span>API Integration</span>: Fetch API, Axios</li>
+                        </ul>
+                        <h3 class="sub_heading">Tools I Use</h3>
+                        <ul class="about__list">
+                            <li><span>Design Tools</span>: Figma, Adobe Photoshop</li>
+                            <li><span>VS Code</span>: My primary code editor for efficient development.</li>
+                            <li><span>Chrome DevTools</span>: Debugging, inspecting, and optimizing web applications.</li>
+                            <li><span>Hoppscotch</span>: Testing and interacting with APIs.</li>
+                        </ul>
+                        <h3 class="sub_heading">Soft Skills</h3>
+                        <ul class="about__list">
+                            <li>Problem-solving mindset</li>
+                            <li>Collaboration and teamwork</li>
+                            <li>Attention to details</li>
+                        </ul>
+                    </div>
+
+                    <div class="section" id="contact">
+                        <h2 class="section__heading">Contact Me</h2>
+                        <p  class="common__text">I’d love to hear from you! Whether you’re looking to collaborate, have a project in mind, or just want to connect, feel free to reach out.</p>
+                        <h3 class="sub_heading">Get in Touch</h3>
+                        <ul class="about__list">
+                            <li><a href="mailto:gouravprusty1432@gmail.com"><span><i class="fa-regular fa-envelope"></i> &nbsp;&nbsp;Email</span>: gouravprusty1432@gmail.com</a></li>
+                            <li><a href="https://github.com/gouravprusty"><span><i class="fa-brands fa-github"></i> &nbsp;&nbsp;GitHub</span>: @gouravprusty1432</a></li>
+                            <li><a href="https://www.linkedin.com/in/gourav-prusty-72a110249"><span><i class="fa-brands fa-linkedin-in"></i> &nbsp;&nbsp;linkedIn</span>: @gouravprusty1432</a></li>
+                        </ul>
+                        <p class="common__text">Let’s create something amazing together!</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
