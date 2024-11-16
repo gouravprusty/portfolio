@@ -413,6 +413,9 @@ body{
     max-width: 300px;
     filter: drop-shadow(2px 2px 1px #bafd02);
 }
+.mobile__avatar{
+    display: none;
+}
 .sub_heading{
     margin-top: 30px;
     font-size: 18px;
@@ -528,8 +531,55 @@ body{
 }
 @media only screen and (max-width:1024px){
     .app{width: 748px;}
+    .header{flex-direction: column; align-items: center;}
+    .header__left {column-gap: 40px;width: 100%;padding-right: 0;border-bottom: 1px solid #bafd02;border-right: none;padding-bottom: 20px;justify-content: center;}
+    .header__logo {width: 140px;}
+    .header__intro {width: auto;}
+    .header__name {font-size: 32px;}
+    .header__right {padding-left: 0;margin-top: 25px;width: auto;}
+    .main {column-gap: 0;flex-wrap: wrap;row-gap: 30px;}
+    .main__left {width: 100%;position: sticky;top: 0px;z-index: 3;}
+    .main__menu {position: static;top: auto;backdrop-filter: blur(10px);}    
+    .menu__list {flex-direction: row;row-gap: 0;column-gap: 30px;}
+    .menu__list li i {font-size: 24px;}
+    .main__right {width: 100%;}
+    .section__heading{font-size: 24px;}
+    .intro__right {width: 30%;}
+    .common__text {font-size: 16px;margin-top: 20px;}
+    .highlight {font-size: 26px;}
+    .about__list li {font-size: 16px;}
+    .about__list li::before {top: 11px;width: 6px;height: 6px;}
 }
 @media only screen and (max-width:768px){
     .app{width: 556px;}
+    .header__name {font-size: 28px;}
+    .header__about {margin-top: 10px;}
+    .main__menu{padding: 0;}
+    .menu__list li{height: 90px;}
+    .section__heading, .highlight {font-size: 22px;}
 }
-@media only screen and (max-width:576px){}
+@media only screen and (max-width:576px){
+    .app {width: calc(100% - 30px); height: calc(100% - 40px);}
+    .app__inner {row-gap: 20px;}
+    .header {padding: 20px;}
+    .header__left {column-gap: 20px;}
+    .header__logo {width: 100px;}
+    .header__name {font-size: 24px;}
+    .header__about {margin-top: 5px;}
+    .header__social {margin-top: 10px;column-gap: 20px;}
+    .header__right {row-gap: 20px; margin-top: 20px;}
+    .header__right li {width: 100%;}
+    .main{row-gap: 20px;}
+    .menu__list{column-gap: 10px;}
+    .menu__list li{font-size: 12px; height: 70px;}
+    .menu__list li i {font-size: 20px;}
+    .main__right{padding: 20px;}
+    .section__heading, .highlight {font-size: 20px;}
+    .intro__right{display: none;}
+    .intro__left{width: 100%;}
+    .mobile__avatar{display: block;width: 100%;margin-top: 20px;}
+    .mobile__avatar img{width: 120px;margin: 0 auto;max-width: 80%;}
+    .contact_button {padding: 6px 15px;font-size: 18px;border-radius: 8px;}
+    .projects_box {column-gap: 0;}
+    .project {width: 100%;}
+}
