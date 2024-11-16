@@ -559,7 +559,8 @@ body{
     .section__heading, .highlight {font-size: 22px;}
 }
 @media only screen and (max-width:576px){
-    .app {width: calc(100% - 30px); height: calc(100% - 40px);}
+    body {padding-top: 15px;}
+    .app {width: calc(100% - 30px); height: calc(100% - 80px);}
     .app__inner {row-gap: 20px;}
     .header {padding: 20px;}
     .header__left {column-gap: 20px;}
