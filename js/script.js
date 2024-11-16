@@ -6,7 +6,7 @@ for(let i = 0; i < total_count + 50; i++){
     container.appendChild(newBox);
 }
 
-const navBtns = document.querySelectorAll(".menu__list li");
+const navBtns = document.querySelectorAll(".nav_buttons");
 const sections = document.querySelectorAll('.section');
 navBtns.forEach((btn) => {
     btn.addEventListener("click", function(){
@@ -20,4 +20,7 @@ navBtns.forEach((btn) => {
         sections.forEach(section => section.classList.remove('active'));
         document.getElementById(targetSection).classList.add('active');
     });
+});
+document.querySelector("#contact_button").addEventListener("click", () => {
+    document.querySelector('[data-target="contact"]').classList.add("active");
 })
